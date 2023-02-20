@@ -1,5 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  min-width: 400px;
-  min-height: 600px;
+  @apply min-w-[400px] min-h-[600px];
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+input,
+select {
+  @apply border-2 mx-2;
 }
